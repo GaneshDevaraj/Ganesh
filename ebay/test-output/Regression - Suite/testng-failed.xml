@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression - Suite]">
+  <parameter name="platformName" value="android"/>
+  <listeners>
+    <listener class-name="utilities.Listener"/>
+  </listeners>
+  <test name="Android Execution(failed)">
+    <classes>
+      <class name="CheckItemDetailsFeature.CheckItemDetailsFeatureTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="ViewItemTest"/>
+        </methods>
+      </class> <!-- CheckItemDetailsFeature.CheckItemDetailsFeatureTest -->
+      <class name="LoginFeature.LoginFeatureTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="LoginTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- LoginFeature.LoginFeatureTest -->
+    </classes>
+  </test> <!-- Android Execution(failed) -->
+</suite> <!-- Failed suite [Regression - Suite] -->

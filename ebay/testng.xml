@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression - Suite" verbose="1">
+	<listeners>
+		<listener class-name="utilities.Listener" />
+	</listeners>
+	<parameter name="platformName" value="android" />
+
+	<test name="Android Execution">
+		<classes>
+			<class name="LoginFeature.LoginFeatureTest" />
+			<class name="CheckItemDetailsFeature.CheckItemDetailsFeatureTest" />
+		</classes>
+	</test>
+</suite>
